@@ -1,0 +1,18 @@
+Week 1 serves as a refresher of basic Python concepts with which you should already be familiar. 
+Remember, this course assumes some prior knowledge of Python programming (in any version of Python). 
+If you're an experienced programmer with coding skills using another language, this Week 1 refresher can also introduce you to the 
+Python syntax you will need throughout the rest of the course.
+
+In Week 1, you will review:
+
+  - Python data types (lists, dictionaries, tuples, etc.)
+  - Statements (if, while, for, etc.)
+  - Dynamic typing
+  - Functions
+  - Common errors and how to fix them
+  
+  
+Week 1 is divided into three parts. Part 1 covers objects and methods. Part 2 covers sequence objects such as lists, tuples, and dictionaries. 
+Part 3 covers manipulating objects. Comprehension Checks follow most videos. There is also one Homework assignment that will allow you to 
+practice your coding skills.
+
