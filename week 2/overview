@@ -1,0 +1,14 @@
+Week 2 introduces you to Python libraries and concepts used in research.
+
+In week 2, you will:
+
+  - Learn about Python scope rules
+  - Learn the basics of scientific and vectorized computing using numpy
+  - Learn the basics of plotting with matplotlib.pyplot
+  - Learn the basics of random numbers with the random module
+  - Learn how to measure time
+
+
+Week 2 is divided into four parts. Part 1 covers scope rules and classes. Part 2 covers NumPy. Part 3 covers Matplotlib and Pyplot. 
+Part 4 covers randomness and time. Comprehension checks follow most videos. There is also one homework assignment that will allow you to 
+practice your coding skills.
