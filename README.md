@@ -1,6 +1,8 @@
-# [Python for Research](https://www.edx.org/course/using-python-for-research?index=product&queryID=9560d96d4a2780b1e73cca8818fd3dff&position=8)
-
-**Course Information**
+<h1>
+<p align = "center">
+Using Python for Research
+</p>
+</h1>
 
   This course bridges the gap between introductory and advanced courses in Python. In this course, after first reviewing the basics of Python 3, we learn about tools       commonly used in research settings. This version of the course includes a new module on statistical learning.
 
