@@ -1,0 +1,33 @@
+# author: @raj-ch017
+
+
+"""
+
+      Exercise 2
+
+      In this exercise, we will summarize the text for a single translation of Hamlet in a pandas dataframe.
+
+      Instructions:
+      
+      Find the dictionary of word frequency in text by calling count_words_fast(). Store this as counted_text.
+      Create a pandas dataframe named data.
+      Using counted_text, define two columns in data:
+      word, consisting of each unique word in text.
+      count, consisting of the number of times each word in word is included in the text.
+      
+"""
+
+#code:
+
+language, text = hamlets.iloc[0]
+
+counted_text = count_words_fast(text)
+
+data = pd.DataFrame(columns = ["word","count"])
+val = 0
+
+for ele in counted_text:
+    data.loc[val] = ele, counted_text[ele]
+    val += 1
+
+print(data.loc[data["word"] == "hamlet"])
