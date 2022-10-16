@@ -12,7 +12,8 @@ In this five-part exercise, we will count the frequency of each letter in a give
       data attribute of the string library.
 """      
     
-    
+#code:
+
 import string
 
 alphabet = string.ascii_letters     
@@ -28,6 +29,7 @@ alphabet = string.ascii_letters
       Count upper case and lower case letters separately in the dictionary.
 """
 
+#code:
 
 sentence = 'Jim quickly realized that the beautiful gowns are expensive'
 
@@ -56,6 +58,7 @@ count_letters
       
 """
 
+#code:
 
 def counter(input_string):
     
@@ -100,7 +103,7 @@ dead we take increased devotion to that cause for which they gave the last full 
 highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of 
 freedom -- and that government of the people, by the people, for the people, shall not perish from the earth."""   
 
-# Write your code here!
+#code:
 
 def counter(input_string):
     
@@ -122,13 +125,14 @@ address_count = counter(address)
 
 """
 
-      Exercise 1f
+      Exercise 1e
       
       The frequency of each letter in the Gettysburg Address is already stored as address_count. Use this dictionary to find the most 
       common letter in the Gettysburg address.
       
 """
 
+#code: 
 
 address_count.values()
 list(address_count.keys())[7]
