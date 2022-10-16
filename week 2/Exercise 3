@@ -1,0 +1,33 @@
+# author: @raj-ch017
+
+
+"""
+
+      Exercise 3
+
+      In this exercise, we will determine which positions are available to either player for placing their marker.
+
+      Instructions:
+      
+      Create a function possibilities(board) that returns a list of all positions (tuples) on the board
+      that are not occupied (0). (Hint: numpy.where is a handy function that returns a list of indices that meet a condition.)
+
+      board is already defined from previous exercises. Call possibilities(board) to see what it returns!
+      
+"""
+
+#code:
+
+def possibilities(board):
+
+    row_ind, col_ind = np.where(board == 0)
+    out_list = []
+
+    for val in range(len(row_ind)):
+        r = row_ind[val]
+        c = col_ind[val]
+        out_list.append((r,c))
+    
+    return out_list
+
+possibilities(board)
