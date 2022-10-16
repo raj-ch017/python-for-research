@@ -1,14 +1,7 @@
-Week 2 introduces you to Python libraries and concepts used in research.
 
-In week 2, you will:
+Tic-tac-toe (or noughts and crosses) is a simple strategy game in which two players take turns placing a mark on a 3x3 board, 
+attempting to make a row, column, or diagonal of three with their mark. In this homework, we will use the tools we've covered in the past
+two weeks to create a tic-tac-toe simulator and evaluate basic winning strategies.
 
-  - Learn about Python scope rules
-  - Learn the basics of scientific and vectorized computing using numpy
-  - Learn the basics of plotting with matplotlib.pyplot
-  - Learn the basics of random numbers with the random module
-  - Learn how to measure time
-
-
-Week 2 is divided into four parts. Part 1 covers scope rules and classes. Part 2 covers NumPy. Part 3 covers Matplotlib and Pyplot. 
-Part 4 covers randomness and time. Comprehension checks follow most videos. There is also one homework assignment that will allow you to 
-practice your coding skills.
+In the following exercises, we will learn to create a tic-tac-toe board, place markers on the board, evaluate if either player has won, 
+and use this to simulate two basic strategies.
