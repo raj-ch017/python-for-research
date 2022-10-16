@@ -1,0 +1,60 @@
+# author: @raj-ch017
+
+
+"""
+
+      Exercise 10
+
+      In this exercise, we will use all the functions we have made to simulate an entire game.
+
+      Instructions:
+      
+      create_board(), random_place(board, player), and evaluate(board) have been created in previous exercises. Create a function play_game() that:
+      Creates a board.
+      Alternates taking turns between two players (beginning with Player 1), placing a marker during each turn.
+      Evaluates the board for a winner after each placement.
+      Continues the game until one player wins (returning 1 or 2 to reflect the winning player), or the game is a draw (returning -1).
+      Call play_game 1000 times, and store the results of the game in a list called results.
+      
+"""
+
+random.seed(1)
+
+def play_game():
+
+    """
+        This function:
+
+            Creates a board
+            Alternates taking turns between two players (beginning with player 1), placing a marker during each turn
+            Evaluates the board for a winner after each placement
+            Continues the game until one player wins (returning 1 or 2 to reflect the winner), or the game is a draw(returning -1)
+
+    """
+
+    the_board = create_board()
+
+    flag = 0
+    player_list = [1,2]
+
+    while flag != (-1) or flag != (1) or flag != (2):
+
+        for player in player_list:
+            after_board = random_place(the_board, player)
+            #print(after_board)
+           #print()
+            flag = evaluate(after_board)
+
+            if flag == 1 or flag == 2 or flag == -1:
+                return flag
+                break
+        
+        the_board = after_board
+        
+results = []
+
+for k in range(1000):
+    outcome = play_game()
+    results.append(str(outcome))
+    
+results.count("1")
