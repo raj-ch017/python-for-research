@@ -1,0 +1,26 @@
+# author: @raj-ch017
+
+
+"""
+
+      Exercise 2
+      
+      In this exercise, we will define a dictionary that specifies the index of each character in alphabet.
+
+      Instructions:
+      
+      alphabet has already defined in the last exercise.
+      Create a dictionary with keys consisting of the characters in alphabet and values consisting of the numbers from 0 to 26.
+      Store this as positions.
+      
+"""
+
+#code:
+
+positions = {}
+
+for val in range(len(alphabet)):
+    key = alphabet[val]
+    positions[key]= val
+    
+print(positions)
